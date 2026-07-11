@@ -1,0 +1,22 @@
+# YOLOv8 dataset configuration
+# ---------------------------------------------------------------------------
+# Update the paths and class names below to match your own dataset.
+# Images must follow the YOLO format, with one .txt label file per image.
+# Docs: https://docs.ultralytics.com/datasets/detect/
+# ---------------------------------------------------------------------------
+
+# Dataset root directory (relative to this file or absolute)
+path: ../data
+
+# Train / validation / (optional) test image directories, relative to `path`
+train: images/train
+val: images/val
+# test: images/test
+
+# Class names (index: name)
+names:
+  0: person
+  1: bicycle
+  2: car
+  3: dog
+  4: cat

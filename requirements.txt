@@ -1,0 +1,8 @@
+# Core
+ultralytics>=8.0.0      # YOLOv8 model and training/inference API
+opencv-python>=4.7.0    # Image and video I/O
+numpy>=1.23.0
+
+# PyTorch (CPU build by default; install the CUDA build for GPU support)
+torch>=2.0.0
+torchvision>=0.15.0
